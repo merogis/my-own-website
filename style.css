@@ -1,0 +1,183 @@
+h1 
+{
+  margin: 0 auto;
+    text-align: center;
+    font-size: 10rem;  
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body
+{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  text-align:center;}
+
+h2
+{
+  line-height: 200%;
+  margin: 0 auto;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+
+h3
+{
+  color: rgb(201, 198, 198);
+  text-decoration: none!important;
+  line-height: 200%;
+  margin: 0 auto;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h4
+{
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  width: 57%;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;}
+}
+
+h3:after
+{
+   color: rgb(201, 198, 198);
+  text-decoration: none!important;
+}
+
+h3:hover
+{
+  color: white;
+}
+
+.link a
+{
+  text-decoration: none;
+}
+
+p
+{
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  width: 57%;
+  text-align: left;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;}
+
+.image
+{
+  margin: 0 auto;
+  width: 50rem;
+  max-width: 100%;
+}
+
+.header
+{
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-color: black;
+}
+
+.inner_header
+{
+  width: 45rem;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color:black
+
+}
+
+.logo_container
+{
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h2
+{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.navigation
+{
+  float: right;
+  height: 100%;
+}
+
+.navigation a
+{
+  text-decoration: none;
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 1rem 1rem;
+
+}
+
+.navigation a li
+{
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
+  color: rgb(201, 198, 198);
+  text-decoration: none ;
+   font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+}
+
+.logo_container a
+{
+  display: table-cell;
+  vertical-align: middle;
+  color: rgb(201, 198, 198);
+  text-decoration: none;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+}
+
+.logo_container a:after
+{
+  color: rgb(220, 219, 219);
+}
+
+.logo_container a:hover
+{
+  color: white;
+}
+
+.navigation a li::after
+{
+  color: rgb(201, 198, 198);
+}
+
+.navigation a li:hover
+{
+  color: white
+}
